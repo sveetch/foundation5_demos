@@ -19,32 +19,15 @@ $row-larger-width: 83rem !default;
         }
     }
 
-    // More larger row for extra 
+    // More larger row for extra
     // large screens
     &.larger {
         @media #{$xlarge-up} {
             max-width: $row-larger-width;
         }
     }
-    
-    // Apply margin bottom on rows
-    &.divider {
-        margin-bottom: rem-calc(10px);
-        @media #{$medium-up} {
-            margin-bottom: rem-calc(30px);
-        }
-    }
 
     .columns {
-        // By default, columns dont needs of a divider in medium display and up,
-        // because they should probably floating
-        &.divider {
-            margin-bottom: rem-calc(5px);
-            @media #{$medium-up} {
-                margin-bottom: 0;
-            }
-        }
-        
         // Remove column padding for simple inner
         &> .row-inner {
             margin-left: -($column-gutter / 2);

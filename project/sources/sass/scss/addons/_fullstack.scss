@@ -1,13 +1,14 @@
 /*
  * Load every addons component in the right order
- * 
+ *
  * Addons are addons for Foundation5 or added new components
- * 
- * This has to be considered like a library as Foundation is, avoid 
+ *
+ * This has to be considered like a library as Foundation is, avoid
  * specific site layout styles and never use id.
  */
 @import "global";
 @import "buttons";
+@import "spaces";
 @import "sections";
 @import "topbar";
 @import "breadcrumbs";

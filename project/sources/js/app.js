@@ -29,6 +29,32 @@ jQuery(window).load(function () {
     });
     // Normal way using html attributes
     $('img.background').swapImageToBackground();
+
+    /*
+     * Restore "jump to anchor" behavior on page loaded but adding an offset
+     */
+    if (location.hash) {
+        var $header = $('#header-container'),
+            offset = 0;
+
+        //console.log("From load(): Location hash detected:"+ location.hash);
+        // Compute additional offset from topbar outer height but only in
+        // sticky or fixed mode
+        if($header.find('.fixed').length>0){
+            offset = $header.find('.fixed').outerHeight(true);
+        } else if($header.find('.sticky').length>0){
+            offset = $header.find('.sticky').outerHeight(true);
+        }
+        //console.log("offset:"+offset);
+        setTimeout(function() {
+            // The fasted method is the raw way with 'scrollTo'
+            window.scrollTo(0, $(location.hash).offset().top - offset);
+            // For more animated and longer scroll, the 'jQuery animate'
+            /*$('html, body').animate({
+                scrollTop: $(location.hash).offset().top - offset
+            }, 100, 'swing', function () {});*/
+        },1)
+    }
 });
 
 jQuery(document).ready(function($) {
@@ -67,6 +93,28 @@ jQuery(document).ready(function($) {
 
         if(prefix){ $this.html(prefix+': '+$this.html()); }
     });*/
+
+    /*
+     * Smooth scrolling to anchor when clicked
+     */
+    $('a[href^="#"]').click(function(){
+        var $header = $('#header-container'),
+            the_id = $(this).attr("href"),
+            offset = 0;
+        console.log("Clicked anchor detected");
+        // Compute additional offset from topbar outer height but only in
+        // sticky or fixed mode
+        if($header.find('.fixed').length>0){
+            offset = $header.find('.fixed').outerHeight(true);
+        } else if($header.find('.sticky').length>0){
+            offset = $header.find('.sticky').outerHeight(true);
+        }
+        console.log("additional offset:"+offset);
+        $('html, body').animate({
+            scrollTop: $(the_id).offset().top - offset
+        }, 'slow');
+        return true;
+    });
 
     // Reflow the 'swapImageToBackground' plugin on debounced
     // resize event to recalculate min-height for background image container

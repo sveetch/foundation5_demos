@@ -9,7 +9,32 @@ button,
     &.unmarged {
         margin: 0;
     }
-    
+
+    /*
+     * Modest padding
+     */
+    &.modest{
+        $padding: $button-med / 2;
+        padding: $padding ($padding * 2) ($padding + rem-calc(1)) ($padding * 2);
+
+        &.tiny{
+            $padding: $button-tny / 2;
+            padding: $padding ($padding * 2) ($padding + rem-calc(1)) ($padding * 2);
+        }
+        &.small{
+            $padding: $button-sml / 2;
+            padding: $padding ($padding * 2) ($padding + rem-calc(1)) ($padding * 2);
+        }
+        &.medium{
+            $padding: $button-med / 2;
+            padding: $padding ($padding * 2) ($padding + rem-calc(1)) ($padding * 2);
+        }
+        &.large{
+            $padding: $button-lrg / 2;
+            padding: $padding ($padding * 2) ($padding + rem-calc(1)) ($padding * 2);
+        }
+    }
+
     /*
      * Make stronger button
      */
@@ -17,7 +42,7 @@ button,
         font-weight: bold;
         text-transform: uppercase;
     }
-    
+
     /*
      * Fullwidth (like '.expand' but keeping padding)
      */
@@ -26,7 +51,7 @@ button,
     }
 }
 
-// Never add bottom margin for last element in container that allready have a 
+// Never add bottom margin for last element in container that allready have a
 // bottom margin
 p, dd{
     button:last-child,

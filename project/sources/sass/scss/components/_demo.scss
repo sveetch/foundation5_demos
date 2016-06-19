@@ -1,0 +1,113 @@
+/*
+ * Styles for demos contents
+ */
+.font-squada{
+    font-family: $SquadaFamily !important;
+}
+
+
+/*
+ * Various header adjustment for somes specific usage
+ */
+#header-container{
+    .top-bar{
+        .name p{
+            font-family: $SquadaFamily;
+            text-transform: uppercase;
+            a{
+                font-family: inherit;
+            }
+        }
+        .top-bar-section{}
+    }
+
+    // Reduce typo so topbar menu will fit
+    .contain-to-grid{
+        .top-bar{
+            .name p{
+                font-size: $topbar-title-font-size-minimal;
+            }
+            .top-bar-section{
+                ul li > a{
+                    font-size: $topbar-link-font-size-minimal;
+                }
+            }
+        }
+    }
+}
+
+
+#body_content{
+
+
+    /*
+     * Distinguish component titles from standard titles
+     */
+    .demo-title{
+        font-family: $SquadaFamily;
+        text-transform: uppercase;
+    }
+
+    h1.demo-title,
+    .title-1.demo-title{
+        margin: 1rem 0 2rem;
+        padding: 0 0 2rem;
+        color: $primary-color;
+        text-shadow: 3px 3px darken($primary-color, 15%);
+    }
+    h2.demo-title,
+    .title-2.demo-title{
+        margin: 0.5rem 0 1.5rem;
+        padding: 0 0 1.5rem;
+        text-shadow: 2px 2px #999;
+    }
+    h3.demo-title,
+    .title-3.demo-title{
+        margin: 0.1rem 0 0.5rem;
+        padding: 0 0 0.5rem;
+        text-shadow: 1px 1px #999;
+    }
+
+
+    /*
+    *
+    * Demo: Sections and colors
+    *
+    */
+    .section {
+        &.aliceblue{
+            @include emencia-container-colors($Gray20, $AliceBlue,
+                                            $link-color: $ElectricYellow,
+                                            $h1-color: $PaleMidnightBlue,
+                                            $h2-color: $PaleMidnightBlue,
+                                            $h3-color: $PaleMidnightBlue,
+                                            $h4-color: $PaleMidnightBlue,
+                                            $h5-color: $PaleMidnightBlue);
+        }
+
+        &.demo-section{
+            background-color: lighten($primary-color, 60%);
+
+            &>.row{
+                background-color: $white;
+                border: 1px solid $primary-color;
+                border-radius: 0.5rem;
+                box-shadow: 0 0 1.5rem lighten($primary-color, 40%);
+
+                &>.columns{
+                    padding: $column-gutter $column-gutter*2;
+                }
+            }
+
+            &+.section{
+                border-top: 1px solid $Gray20;
+            }
+        }
+
+        &+.pattern-swirl{
+            border-top: 1px solid $Gray20;
+        }
+    }
+
+
+}

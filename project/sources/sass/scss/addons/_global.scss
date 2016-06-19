@@ -18,7 +18,7 @@
     border: 2px solid $alert-color;
     background-color: $white;
     z-index: 9000;
-    
+
     small{
         display: block;
     }
@@ -30,85 +30,12 @@
     position: relative;
 }
 
-// Remove all margins
-.unmarged {
-    margin: 0 !important;
-}
-
-// Sometime we need to separate an element from an another adjacent element
-.divider:not(li) {
-    margin-bottom: 2rem;
-    
-    &.tiny-divide{
-        margin-bottom: 1rem;
-    }
-    
-    &.big-divide{
-        margin-bottom: 3rem;
-    }
-}
-
-/*
- * Vertical spaces around element
- */
-.space-around{
-    padding: .7rem 0;
-    
-    @media #{$medium-up} {
-        padding: 1.2rem 0;
-    }
-    @media #{$large-up} {
-        padding: 1.5rem 0;
-    }
-    @media #{$xlarge-up} {
-        padding: 2rem 0;
-    }
-    
-    // Tiny spaces
-    &.tiny-space{
-        padding: 0.75rem 0;
-        
-        @media #{$medium-up} {
-            padding: 1rem 0;
-        }
-    }
-    
-    // Medium spaces
-    &.medium-space{
-        padding: 1rem 0;
-        
-        @media #{$medium-up} {
-            padding: 1.5rem 0;
-        }
-    }
-    
-    // Wider spaces
-    &.wide-space{
-        padding: 1.5rem 0;
-        
-        @media #{$medium-up} {
-            padding: 2.5rem 0;
-        }
-        @media #{$large-up} {
-            padding: 4rem 0;
-        }
-    }
-    
-    // For only top or bottom space
-    &.top-only{
-        padding-bottom: 0;
-    }
-    &.bottom-only{
-        padding-top: 0;
-    }
-}
-
 /*
  * Attempt to use columns-* properties
  */
 .strip-container{
     @include columns(auto 2);
-    
+
     .strip-cell{
         @include break-inside(avoid);
     }

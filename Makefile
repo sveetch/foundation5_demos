@@ -17,7 +17,7 @@ delpyc:
 	find . -name "*\.pyc"|xargs rm -f
 
 clean: delpyc
-	rm -Rf bin pip-selfcheck.json include eggs lib parts local
+	rm -Rf bin pip-selfcheck.json include eggs lib parts local project/.webassets-cache project/_build
 
 install:
 	virtualenv --no-site-packages --setuptools .

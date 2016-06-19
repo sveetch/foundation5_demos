@@ -78,7 +78,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1281,7 +1281,7 @@ html.no-flexbox .flex-grid > .cell + .end.cell {
   background: #EFEFEF;
   color: #222222;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -1850,7 +1850,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4638,7 +4638,7 @@ kbd {
 
 .label {
   display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -5189,7 +5189,7 @@ ul.pagination li {
 .pricing-table .title {
   background-color: #333333;
   color: #EEEEEE;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -5199,7 +5199,7 @@ ul.pagination li {
 .pricing-table .price {
   background-color: #F6F6F6;
   color: #333333;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 2rem;
   font-weight: normal;
   padding: 0.9375rem 1.25rem;
@@ -5588,7 +5588,7 @@ ul.pagination li {
 
 .side-nav {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -5619,7 +5619,7 @@ ul.pagination li {
 
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -5803,7 +5803,7 @@ ul.pagination li {
 .sub-nav li {
   color: #999999;
   float: left;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   margin-left: 1rem;
@@ -6083,7 +6083,7 @@ table tr td {
   display: block;
   background-color: #EFEFEF;
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
 }
@@ -6340,14 +6340,14 @@ meta.foundation-mq-topbar {
 }
 
 .fixed.expanded:not(.top-bar) .top-bar-section {
-  margin-top: 2.8125rem;
+  margin-top: 5.625rem;
   z-index: 98;
 }
 
 .top-bar {
   background: #333333;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
+  height: 5.625rem;
+  line-height: 5.625rem;
   margin-bottom: 0;
   overflow: hidden;
   position: relative;
@@ -6397,13 +6397,13 @@ meta.foundation-mq-topbar {
 
 .top-bar .name {
   font-size: 16px;
-  height: 2.8125rem;
+  height: 5.625rem;
   margin: 0;
 }
 
 .top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
-  font-size: 1.0625rem;
-  line-height: 2.8125rem;
+  font-size: 2.5rem;
+  line-height: 5.625rem;
   margin: 0;
 }
 
@@ -6411,7 +6411,7 @@ meta.foundation-mq-topbar {
   color: #ffffff;
   display: block;
   font-weight: normal;
-  padding: 0 0.9375rem;
+  padding: 0 1.875rem;
   width: 75%;
 }
 
@@ -6426,9 +6426,9 @@ meta.foundation-mq-topbar {
   display: block;
   font-size: 0.8125rem;
   font-weight: bold;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
-  padding: 0 0.9375rem;
+  height: 5.625rem;
+  line-height: 5.625rem;
+  padding: 0 1.875rem;
   position: relative;
   text-transform: uppercase;
 }
@@ -6442,7 +6442,7 @@ meta.foundation-mq-topbar {
   color: #ffffff;
   height: 34px;
   line-height: 33px;
-  padding: 0 2.5rem 0 0.9375rem;
+  padding: 0 3.4375rem 0 1.875rem;
   position: relative;
 }
 
@@ -6453,7 +6453,7 @@ meta.foundation-mq-topbar {
   position: absolute;
   margin-top: -8px;
   top: 50%;
-  right: 0.9375rem;
+  right: 1.875rem;
   box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
   width: 16px;
 }
@@ -6520,19 +6520,19 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #ffffff;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.8125rem;
+  font-family: "Squada One", cursive;
+  font-size: 1.5625rem;
   font-weight: normal;
-  padding-left: 0.9375rem;
-  padding: 12px 0 12px 0.9375rem;
+  padding-left: 1.875rem;
+  padding: 12px 0 12px 1.875rem;
   text-transform: none;
   width: 100%;
 }
 
 .top-bar-section ul li > a.button {
-  font-size: 0.8125rem;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  font-size: 1.5625rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #ffffff;
@@ -6617,9 +6617,9 @@ meta.foundation-mq-topbar {
 }
 
 .top-bar-section ul li > button {
-  font-size: 0.8125rem;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  font-size: 1.5625rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #ffffff;
@@ -6720,7 +6720,7 @@ meta.foundation-mq-topbar {
 }
 
 .top-bar-section .has-form {
-  padding: 0.9375rem;
+  padding: 1.875rem;
 }
 
 .top-bar-section .has-dropdown {
@@ -6735,7 +6735,7 @@ meta.foundation-mq-topbar {
   width: 0;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 0.9375rem;
+  margin-right: 1.875rem;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -6782,7 +6782,7 @@ meta.foundation-mq-topbar {
 
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 0.9375rem;
+  padding: 8px 1.875rem;
 }
 
 .top-bar-section .dropdown li a.parent-link {
@@ -6805,7 +6805,7 @@ meta.foundation-mq-topbar {
 }
 
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 0.9375rem;
+  padding: 8px 1.875rem;
 }
 
 .top-bar-section .dropdown li .button,
@@ -6818,7 +6818,7 @@ meta.foundation-mq-topbar {
   font-size: 0.625rem;
   font-weight: bold;
   margin-bottom: 0;
-  padding: 8px 0.9375rem 2px;
+  padding: 8px 1.875rem 2px;
   text-transform: uppercase;
 }
 
@@ -6859,14 +6859,14 @@ meta.foundation-mq-topbar {
     font-size: 0.875rem;
     height: 1.75rem;
     position: relative;
-    top: 0.53125rem;
+    top: 1.9375rem;
   }
   .top-bar .has-form > .button,
   .top-bar .has-form > button {
     font-size: 0.875rem;
     height: 1.75rem;
     position: relative;
-    top: 0.53125rem;
+    top: 1.9375rem;
   }
   .top-bar.expanded {
     background: #333333;
@@ -6898,8 +6898,8 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: #333333;
-    line-height: 2.8125rem;
-    padding: 0 0.9375rem;
+    line-height: 5.625rem;
+    padding: 0 1.875rem;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
@@ -6908,15 +6908,15 @@ meta.foundation-mq-topbar {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #008CBA;
     color: #ffffff;
-    line-height: 2.8125rem;
-    padding: 0 0.9375rem;
+    line-height: 5.625rem;
+    padding: 0 1.875rem;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #0078a0;
     color: #ffffff;
   }
   .top-bar-section .has-dropdown > a {
-    padding-right: 2.1875rem !important;
+    padding-right: 3.125rem !important;
   }
   .top-bar-section .has-dropdown > a:after {
     border: inset 5px;
@@ -6927,7 +6927,7 @@ meta.foundation-mq-topbar {
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 1.40625rem;
+    top: 2.8125rem;
   }
   .top-bar-section .has-dropdown.moved {
     position: relative;
@@ -6973,8 +6973,8 @@ meta.foundation-mq-topbar {
   .top-bar-section .dropdown li a {
     background: #333333;
     color: #ffffff;
-    line-height: 2.8125rem;
-    padding: 12px 0.9375rem;
+    line-height: 5.625rem;
+    padding: 12px 1.875rem;
     white-space: nowrap;
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
@@ -7000,13 +7000,13 @@ meta.foundation-mq-topbar {
     border-bottom: none;
     border-top: none;
     clear: none;
-    height: 2.8125rem;
+    height: 5.625rem;
     width: 0;
   }
   .top-bar-section .has-form {
     background: #333333;
-    height: 2.8125rem;
-    padding: 0 0.9375rem;
+    height: 5.625rem;
+    padding: 0 1.875rem;
   }
   .top-bar-section .right li .dropdown {
     left: auto;
@@ -7280,7 +7280,7 @@ p aside {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -8899,10 +8899,10 @@ th.hide-for-touch {
  */
 /*
  * Load every addons component in the right order
- * 
+ *
  * Addons are addons for Foundation5 or added new components
- * 
- * This has to be considered like a library as Foundation is, avoid 
+ *
+ * This has to be considered like a library as Foundation is, avoid
  * specific site layout styles and never use id.
  */
 /*
@@ -8934,91 +8934,6 @@ th.hide-for-touch {
   position: relative;
 }
 
-.unmarged {
-  margin: 0 !important;
-}
-
-.divider:not(li) {
-  margin-bottom: 2rem;
-}
-
-.divider:not(li).tiny-divide {
-  margin-bottom: 1rem;
-}
-
-.divider:not(li).big-divide {
-  margin-bottom: 3rem;
-}
-
-/*
- * Vertical spaces around element
- */
-.space-around {
-  padding: .7rem 0;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  .space-around {
-    padding: 1.2rem 0;
-  }
-}
-
-@media only screen and (min-width: 64.0625em) {
-  .space-around {
-    padding: 1.5rem 0;
-  }
-}
-
-@media only screen and (min-width: 90.0625em) {
-  .space-around {
-    padding: 2rem 0;
-  }
-}
-
-.space-around.tiny-space {
-  padding: 0.75rem 0;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  .space-around.tiny-space {
-    padding: 1rem 0;
-  }
-}
-
-.space-around.medium-space {
-  padding: 1rem 0;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  .space-around.medium-space {
-    padding: 1.5rem 0;
-  }
-}
-
-.space-around.wide-space {
-  padding: 1.5rem 0;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  .space-around.wide-space {
-    padding: 2.5rem 0;
-  }
-}
-
-@media only screen and (min-width: 64.0625em) {
-  .space-around.wide-space {
-    padding: 4rem 0;
-  }
-}
-
-.space-around.top-only {
-  padding-bottom: 0;
-}
-
-.space-around.bottom-only {
-  padding-top: 0;
-}
-
 /*
  * Attempt to use columns-* properties
  */
@@ -9043,6 +8958,9 @@ button,
      * Explicitely remove all button margins
      */
   /*
+     * Modest padding
+     */
+  /*
      * Make stronger button
      */
   /*
@@ -9053,6 +8971,31 @@ button,
 button.unmarged,
 .button.unmarged {
   margin: 0;
+}
+
+button.modest,
+.button.modest {
+  padding: 0.5rem 1rem 0.5625rem 1rem;
+}
+
+button.modest.tiny,
+.button.modest.tiny {
+  padding: 0.3125rem 0.625rem 0.375rem 0.625rem;
+}
+
+button.modest.small,
+.button.modest.small {
+  padding: 0.4375rem 0.875rem 0.5rem 0.875rem;
+}
+
+button.modest.medium,
+.button.modest.medium {
+  padding: 0.5rem 1rem 0.5625rem 1rem;
+}
+
+button.modest.large,
+.button.modest.large {
+  padding: 0.5625rem 1.125rem 0.625rem 1.125rem;
 }
 
 button.strong,
@@ -9102,9 +9045,226 @@ dd .button:last-child {
 }
 
 /*
- * 
+ * All about spaces around elements
+ */
+.unmarged {
+  margin: 0 !important;
+}
+
+.divider:not(li):not(.section) {
+  margin-bottom: 2rem;
+}
+
+.divider:not(li):not(.section).tiny-divide {
+  margin-bottom: 1rem;
+}
+
+.divider:not(li):not(.section).big-divide {
+  margin-bottom: 3rem;
+}
+
+/*
+ * Explicit vertical spaces around element
+ */
+.v-space-around {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .v-space-around {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .v-space-around {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 90.0625em) {
+  .v-space-around {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.v-space-around.v-tiny-space {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .v-space-around.v-tiny-space {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.v-space-around.v-medium-space {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .v-space-around.v-medium-space {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.v-space-around.v-wide-space {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .v-space-around.v-wide-space {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .v-space-around.v-wide-space {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.v-space-around.v-large-space {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .v-space-around.v-large-space {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .v-space-around.v-large-space {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.v-space-around.top-only {
+  padding-bottom: 0;
+}
+
+.v-space-around.bottom-only {
+  padding-top: 0;
+}
+
+/*
+ * Explicit vertical spaces around element
+ */
+.h-space-around {
+  padding-left: .7rem;
+  padding-right: .7rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .h-space-around {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .h-space-around {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 90.0625em) {
+  .h-space-around {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.h-space-around.h-tiny-space {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .h-space-around.h-tiny-space {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.h-space-around.h-medium-space {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .h-space-around.h-medium-space {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.h-space-around.h-wide-space {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .h-space-around.h-wide-space {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .h-space-around.h-wide-space {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.h-space-around.h-large-space {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .h-space-around.h-large-space {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .h-space-around.h-large-space {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.h-space-around.left-only {
+  padding-right: 0;
+}
+
+.h-space-around.right-only {
+  padding-left: 0;
+}
+
+/*
+ *
  * Sections and colors
- * 
+ *
  */
 .section {
   padding: 0.9375rem 0;
@@ -9137,7 +9297,7 @@ dd .button:last-child {
 }
 
 .section a:not(.button) {
-  color: inherit;
+  color: #008CBA;
 }
 
 .section a:not(.button):hover {
@@ -9233,13 +9393,17 @@ dd .button:last-child {
 @media only screen and (min-width: 90.0625em) {
   .section.tall,
   .section > .inner.tall {
-    padding: 5.625rem 0;
+    padding: 6.25rem 0;
   }
 }
 
 .section.unpadded,
 .section > .inner.unpadded {
   padding: 0;
+}
+
+.section.divider + .section.divider {
+  border-top: 10px dashed #333333;
 }
 
 .section.black {
@@ -9285,8 +9449,8 @@ dd .button:last-child {
  * 
  */
 .top-bar .name p {
-  line-height: 2.8125rem;
-  font-size: 1.0625rem;
+  line-height: 5.625rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 
@@ -9295,7 +9459,7 @@ dd .button:last-child {
   color: #ffffff;
   width: 75%;
   display: block;
-  padding: 0 0.9375rem;
+  padding: 0 1.875rem;
 }
 
 @media only screen and (min-width: 40.0625em) {
@@ -10444,7 +10608,7 @@ small .big {
  */
 h1, h2, h3, h4, h5, h6,
 .title-1, .title-2, .title-3, .title-4, .title-5, .title-6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -10611,26 +10775,6 @@ h6, .title-6 {
   }
 }
 
-.row.divider, html.no-flexbox .divider.flex-grid {
-  margin-bottom: 0.625rem;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  .row.divider, html.no-flexbox .divider.flex-grid {
-    margin-bottom: 1.875rem;
-  }
-}
-
-.row .columns.divider, html.no-flexbox .flex-grid .columns.divider, html.no-flexbox .row .flex-grid > .divider.cell, html.no-flexbox .flex-grid > .divider.cell {
-  margin-bottom: 0.3125rem;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  .row .columns.divider, html.no-flexbox .flex-grid .columns.divider, html.no-flexbox .row .flex-grid > .divider.cell, html.no-flexbox .flex-grid > .divider.cell {
-    margin-bottom: 0;
-  }
-}
-
 .row .columns > .row-inner, html.no-flexbox .flex-grid .columns > .row-inner, html.no-flexbox .row .flex-grid > .cell > .row-inner, html.no-flexbox .flex-grid > .cell > .row-inner {
   margin-left: -0.9375rem;
   margin-right: -0.9375rem;
@@ -10766,6 +10910,131 @@ ul.arrow.defer li > *:first-child:before {
   /*
  * Various content styles
  */
+}
+
+/*
+ * Styles for demos contents
+ */
+.font-squada {
+  font-family: "Squada One", cursive !important;
+}
+
+/*
+ * Various header adjustment for somes specific usage
+ */
+#header-container .top-bar .name p {
+  font-family: "Squada One", cursive;
+  text-transform: uppercase;
+}
+
+#header-container .top-bar .name p a {
+  font-family: inherit;
+}
+
+#header-container .contain-to-grid .top-bar .name p {
+  font-size: 1.25rem;
+}
+
+#header-container .contain-to-grid .top-bar .top-bar-section ul li > a {
+  font-size: 1rem;
+}
+
+#body_content {
+  /*
+     * Distinguish component titles from standard titles
+     */
+  /*
+    *
+    * Demo: Sections and colors
+    *
+    */
+}
+
+#body_content .demo-title {
+  font-family: "Squada One", cursive;
+  text-transform: uppercase;
+}
+
+#body_content h1.demo-title,
+#body_content .title-1.demo-title {
+  margin: 1rem 0 2rem;
+  padding: 0 0 2rem;
+  color: #008CBA;
+  text-shadow: 3px 3px #00526e;
+}
+
+#body_content h2.demo-title,
+#body_content .title-2.demo-title {
+  margin: 0.5rem 0 1.5rem;
+  padding: 0 0 1.5rem;
+  text-shadow: 2px 2px #999;
+}
+
+#body_content h3.demo-title,
+#body_content .title-3.demo-title {
+  margin: 0.1rem 0 0.5rem;
+  padding: 0 0 0.5rem;
+  text-shadow: 1px 1px #999;
+}
+
+#body_content .section.aliceblue {
+  color: #333333;
+  background-color: #f0f8ff;
+}
+
+#body_content .section.aliceblue h1, #body_content .section.aliceblue .title-1 {
+  color: #0e2f44;
+}
+
+#body_content .section.aliceblue h2, #body_content .section.aliceblue .title-2 {
+  color: #0e2f44;
+}
+
+#body_content .section.aliceblue h3, #body_content .section.aliceblue .title-3 {
+  color: #0e2f44;
+}
+
+#body_content .section.aliceblue h4, #body_content .section.aliceblue .title-4 {
+  color: #0e2f44;
+}
+
+#body_content .section.aliceblue h5, #body_content .section.aliceblue .title-5 {
+  color: #0e2f44;
+}
+
+#body_content .section.aliceblue h6, #body_content .section.aliceblue .title-6 {
+  color: inherit;
+}
+
+#body_content .section.aliceblue a:not(.button) {
+  color: #f6b220;
+}
+
+#body_content .section.aliceblue a:not(.button):hover {
+  color: inherit;
+}
+
+#body_content .section.demo-section {
+  background-color: #edfbff;
+}
+
+#body_content .section.demo-section > .row, #body_content html.no-flexbox .section.demo-section > .flex-grid, html.no-flexbox #body_content .section.demo-section > .flex-grid {
+  background-color: #ffffff;
+  border: 1px solid #008CBA;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1.5rem #87e1ff;
+}
+
+#body_content .section.demo-section > .row > .columns, #body_content html.no-flexbox .section.demo-section > .flex-grid > .columns, html.no-flexbox #body_content .section.demo-section > .flex-grid > .columns, #body_content html.no-flexbox .section.demo-section > .flex-grid > .cell, html.no-flexbox #body_content .section.demo-section > .flex-grid > .cell {
+  padding: 1.875rem 3.75rem;
+}
+
+#body_content .section.demo-section + .section {
+  border-top: 1px solid #333333;
+}
+
+#body_content .section + .pattern-swirl {
+  border-top: 1px solid #333333;
 }
 
 /*

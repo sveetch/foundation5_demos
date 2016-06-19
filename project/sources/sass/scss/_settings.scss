@@ -9,17 +9,42 @@
 // Settings overrides goes below
 //
 
-// Control wether a link to google open-sans font is included or not, default
-// is true. Change value to 'false' if you dont use Open Sans in profit of
-// other another font, to avoid loading OpenSans for nothing
-$include-open-sans: true;
-
 // Consistant colors names facility
 $white: #ffffff;
 $black: #000000;
+
+$Oil: #333333;
+$AliceBlue: #f0f8ff;
+$AntiqueWhite4: #8b8378;
+$Gray20: #333333;
+$Gray63: #a1a1a1;
+$Azure3: #c1cdcd;
+$ElectricYellow: #f6b220;
+$PaleMidnightBlue: #0e2f44;
 
 // Enable xlarge and xxlarge columns class names into the grid
 $include-xl-html-grid-classes: false;
 
 // Larger row width for xlarge screens and more
 $row-larger-width: rem-calc(1328px);
+
+// c. Global
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// We use these to define default font stacks
+$font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$SquadaFamily: 'Squada One', cursive;
+
+// 34. Top Bar
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$topbar-height: rem-calc(90px);
+
+// $topbar-title-weight: $font-weight-normal;
+$topbar-title-font-size: rem-calc(40px);
+$topbar-title-font-size-minimal: rem-calc(20px);
+
+$topbar-link-font-family: $SquadaFamily;
+
+$topbar-link-font-size: rem-calc(25px);
+$topbar-link-font-size-minimal: rem-calc(16px);
